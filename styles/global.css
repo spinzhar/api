@@ -11,9 +11,9 @@
   border: 1px solid transparent !important;
   margin: 0 0.5rem !important;
   padding: 0.5rem 0.75rem !important;
-  font-size: 1rem !important;
+  font-size: 18px !important;
   line-height: 1.25 !important;
-  border-radius: 0.25rem !important;
+  border-radius: 8px !important;
   transition: all 0.15s ease-in-out !important;
 }
 .swal2-container .btn:focus,
