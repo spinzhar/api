@@ -763,8 +763,8 @@
   font: normal 56px serif !important;
 }
 .swal2-container .swal2-icon-text .btn {
-  min-width: 160px;
-  height: 46px;
+  min-width: 160px !important;
+  height: 46px !important;
 }
 
 * {
