@@ -768,8 +768,37 @@
 }
 
 *:focus {
-  outline: none;
+  outline: none !important;
 }
 * {
-  outline: none;
+  outline: none !important;
+}
+
+#btnAnalysis {
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !important;
+  z-index: 99999999 !important;
+  background: #36383f !important;
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma,
+    Sans-Serif !important;
+  -webkit-appearance: none !important;
+  font-size: 14px !important;
+  text-shadow: none !important;
+  line-height: 1.2 !important;
+  display: inline-block !important;
+  outline: 0 !important;
+  padding: 5px 10px !important;
+  border-radius: 3px !important;
+  border: 3px solid transparent !important;
+  color: white !important;
+  cursor: pointer !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  text-decoration: none !important;
+  text-align: center !important;
+  font-weight: normal !important;
+}
+btnAnalysis:hover {
+  background: #4e505a;
 }
