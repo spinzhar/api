@@ -762,7 +762,7 @@
   color: inherit !important;
   font: normal 56px serif !important;
 }
-.swal2-container .swal2-icon-text .btn {
+.swal2-container .swal2-actions .btn {
   min-width: 160px !important;
   height: 46px !important;
 }
