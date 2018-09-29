@@ -767,7 +767,7 @@
   height: 46px !important;
 }
 .swal2-container .swal2-footer {
-  padding: 0;
+  padding: 0 !important;
 }
 *:focus {
   outline: none !important;
@@ -775,7 +775,6 @@
 * {
   outline: none !important;
 }
-
 #btnAnalysis {
   position: fixed !important;
   top: 0 !important;
