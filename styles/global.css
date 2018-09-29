@@ -751,7 +751,7 @@
 }
 .swal2-container .swal2-popup {
   width: 700px !important;
-  height: 600px !important;
+  height: 550px !important;
   font: normal 16px serif !important;
   line-height: 34px !important;
 }
@@ -766,7 +766,9 @@
   min-width: 160px !important;
   height: 46px !important;
 }
-
+.swal2-container .swal2-footer {
+  padding: 0;
+}
 *:focus {
   outline: none !important;
 }
