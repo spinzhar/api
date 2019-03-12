@@ -130,6 +130,26 @@
   box-shadow: 0 0 0 3px rgba(23, 162, 184, 0.5) !important;
 }
 .swal2-container .btn-info.disabled,
+
+1
+0
+
+    0
+
+spinzhar/api
+Code
+Issues 0
+Pull requests 0
+Projects 0
+Wiki
+Insights
+Settings
+api/styles/
+or cancel
+
+45
+
+.swal2-container .btn-primary:hover {
 .swal2-container .btn-info:disabled {
   background: #17a2b8 !important;
   border-color: #17a2b8 !important;
@@ -185,6 +205,26 @@
 .swal2-container .btn-danger:disabled {
   background: #dc3545 !important;
   border-color: #dc3545 !important;
+}
+
+1
+0
+
+    0
+
+spinzhar/api
+Code
+Issues 0
+Pull requests 0
+Projects 0
+Wiki
+Insights
+Settings
+api/styles/
+or cancel
+
+101
+
 }
 .swal2-container .btn-danger:active,
 .swal2-container .btn-danger.active,
@@ -258,6 +298,26 @@
 }
 .swal2-container .btn-outline-primary:focus,
 .swal2-container .btn-outline-primary.focus {
+
+1
+0
+
+    0
+
+spinzhar/api
+Code
+Issues 0
+Pull requests 0
+Projects 0
+Wiki
+Insights
+Settings
+api/styles/
+or cancel
+
+226
+
+101
   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5) !important;
 }
 .swal2-container .btn-outline-primary.disabled,
@@ -319,6 +379,26 @@
   color: #28a745 !important;
   background: transparent !important;
 }
+
+1
+0
+
+    0
+
+spinzhar/api
+Code
+Issues 0
+Pull requests 0
+Projects 0
+Wiki
+Insights
+Settings
+api/styles/
+or cancel
+
+307
+
+spinzhar/api
 .swal2-container .btn-outline-success:active,
 .swal2-container .btn-outline-success.active,
 .swal2-container .show > .btn-outline-success.dropdown-toggle {
@@ -802,8 +882,4 @@
 }
 btnAnalysis:hover {
   background: #4e505a;
-}
-td.type-list.field-chars {
-max-height: 300px;
-overflow-y: scroll;
 }
