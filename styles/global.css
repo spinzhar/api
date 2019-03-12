@@ -803,3 +803,7 @@
 btnAnalysis:hover {
   background: #4e505a;
 }
+td.type-list.field-chars {
+max-height: 300px;
+overflow-y: scroll;
+}
