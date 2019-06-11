@@ -18,8 +18,8 @@
         d = n(47),
         s = n(46),
         u = n(48),
-        h = (n(58), n(104)),
-        g = n(102),
+        g = (n(58), n(104)),
+        h = n(102),
         m = n(103),
         f = n(100),
         p = (function(e) {
@@ -44,14 +44,17 @@
                     n.setState({ idInFolder: e.target.value });
               }),
               (n.handleClick = function(e) {
-                console.log(n.state), n.setState({ isLoading: !0 });
-                google.script.run.withSuccessHandler(() => {
-                  finishLoading();
-                });
-              }),
-              (n.finishLoading = function() {
-                console.log('\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430'),
-                  n.setState({ isLoading: !1 });
+                console.log(n.state, 'google');
+                console.log(n.state, 'google'),
+                  n.setState({ isLoading: !0 }),
+                  google.script.run
+                    .withSuccessHandler(function() {
+                      n.setState({ isLoading: !1 });
+                    })
+                    .moveFoldersAndFiles(
+                      n.state.idOutFolder,
+                      n.state.idInFolder
+                    );
               }),
               n
             );
@@ -75,7 +78,7 @@
                       'div',
                       null,
                       l.a.createElement(
-                        g.a,
+                        h.a,
                         {
                           fontSize: 'large',
                           style: { fontSize: 50, color: '#5f6368' }
@@ -83,7 +86,7 @@
                         'folder_shared'
                       ),
                       l.a.createElement(
-                        g.a,
+                        h.a,
                         {
                           fontSize: 'large',
                           style: { fontSize: 40, color: '#5f6368' }
@@ -91,7 +94,7 @@
                         'arrow_right_alt'
                       ),
                       l.a.createElement(
-                        g.a,
+                        h.a,
                         {
                           fontSize: 'large',
                           style: { fontSize: 50, color: '#5f6368' }
@@ -126,7 +129,7 @@
                       'div',
                       null,
                       l.a.createElement(
-                        h.a,
+                        g.a,
                         {
                           variant: 'outlined',
                           color: 'primary',
@@ -159,4 +162,4 @@
   },
   [[52, 1, 2]]
 ]);
-//# sourceMappingURL=main.0a0f9508.chunk.js.map
+//# sourceMappingURL=main.23ae901e.chunk.js.map
