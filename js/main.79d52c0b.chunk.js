@@ -41,11 +41,15 @@
               (n.handleClick = function(e) {
                 console.log(n.state),
                   //  google.script.run.myFunction(n.state.idOutFolder);
+
                   google.script.run
                     .withSuccessHandler(() => {
                       console.log('выполнено');
                     })
-                    .myFunction(n.state.idOutFolder);
+                    .moveFoldersAndFiles(
+                      n.state.idOutFolder,
+                      n.state.idInFolder
+                    );
               }),
               n
             );
