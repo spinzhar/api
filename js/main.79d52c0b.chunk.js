@@ -44,8 +44,8 @@
                     n.setState({ idInFolder: e.target.value });
               }),
               (n.handleClick = function(e) {
-                console.log(n.state, 'google');
                 console.log(n.state, 'google'),
+                  console.log(n.state, 'google'),
                   n.setState({ isLoading: !0 }),
                   google.script.run
                     .withSuccessHandler(function() {
@@ -162,4 +162,4 @@
   },
   [[52, 1, 2]]
 ]);
-//# sourceMappingURL=main.23ae901e.chunk.js.map
+//# sourceMappingURL=main.05d01aa5.chunk.js.map
